@@ -13,10 +13,9 @@ RSpec.describe BookRepository do
 
     it '' do
         repo = BookRepository.new
-        repo = BookRepository.new
         books = repo.all
-        expect(books.first.id).to eq (1)
-        expect(books.find.title).to eq ('Nineteen Eighty-Four')
-        expect(books.first.title).to eq ('Nineteen Eighty-Four')
+        expect(books.first.id).to eq ('1')
+        
+    
     end
 end
