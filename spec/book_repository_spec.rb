@@ -17,6 +17,7 @@ RSpec.describe BookRepository do
         expect(books.first.id).to eq ('1')
         expect(books.first.author_name).to eq ('George Orwell')
         expect(books.first.title).to eq ('Nineteen Eighty-Four')
+        expect(books.last.title).to eq ('The Age of Innocence')
         
     
     end
