@@ -15,6 +15,7 @@ RSpec.describe BookRepository do
         repo = BookRepository.new
         books = repo.all
         expect(books.first.id).to eq ('1')
+        expect(books.first.author_name).to eq ('George Orwell')
         
     
     end
